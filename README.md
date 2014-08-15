@@ -1,4 +1,4 @@
-WP_ngrok_local
+ngrok local
 ==============
 
 Expose your local WordPress to the world
