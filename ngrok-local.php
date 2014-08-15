@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Ngrok Local
  * Plugin URI: https://wp-stream.com/
- * Description: Translate host on the fly to expose local server to the web.
+ * Description: Translate host on the fly to expose local server to the web using ngrok.
  * Version: 0.0.1
  * Author: Jonathan Bardo
  * Author URI: http://jonathanbardo.com
