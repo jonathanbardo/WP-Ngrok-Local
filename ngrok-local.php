@@ -16,7 +16,7 @@ class Ngrok_Local {
 	public function __construct(){
 		$this->site_url = site_url() . '/';;
 
-		if ( ! defined( 'WP_SITEURL' ) && ! defined( 'WP_HOME' ) ) {
+		if ( ! defined( 'WP_SITEURL' ) && ! defined( 'WP_HOME' ) && isset( $_SERVER['HTTP_HOST'] ) ) {
 			define( 'WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] );
 			define( 'WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] );
 		} else {
