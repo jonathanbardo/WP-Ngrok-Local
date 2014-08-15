@@ -5,4 +5,4 @@ Expose your local WordPress to the world
 
 Installation
 ============
-Put this plugin into the wp-content/mu-plugins directory. If the directory doesn't exist, create it.
+Put this plugin into the wp-content/plugins directory. Activate the plugin when you create the tunnel using ngrok.
